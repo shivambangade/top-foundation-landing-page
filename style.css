@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 170px;
+    background-color: #1F2937;
+    align-items: center;
+    
+}
+.links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+.links a {
+    text-decoration: none;
+    font-weight: 300;
+}
+.logo,
+.links a {
+    color: white;
+}
+.logo{
+    font-weight: bold;
+
+}
