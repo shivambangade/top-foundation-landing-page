@@ -104,7 +104,7 @@ h1{
 }
 .text{
     text-align: center;
-    color: #1F2937;
+    color: rgb(197, 193, 193);
 }
 .information{
     margin-bottom: 100px;
@@ -130,4 +130,43 @@ cite{
     font-weight: bold;
     text-align: right;
     font-size: 24px;
+}
+.cta{
+    display: flex;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    display: flex;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    width: 1000px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+.popup-left{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.popup-left .dialogue{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.popup-left .sub-dialogue{
+    color: rgb(221, 215, 215);
+}
+
+.popup-right button{
+        height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 2px white solid;
+
 }
