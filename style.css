@@ -170,3 +170,9 @@ cite{
     border: 2px white solid;
 
 }
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 30px;
+}
