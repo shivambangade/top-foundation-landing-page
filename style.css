@@ -111,5 +111,23 @@ h1{
 }
 .quote{
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 100px 0;
+}
+blockquote{
+    text-align: left;
+    width: 800px;
+    font-style: italic;
+    margin: auto;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+}
+cite{
+    display: block;
+    margin: auto;
+    width: 800px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
 }
